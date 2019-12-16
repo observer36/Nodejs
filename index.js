@@ -1,6 +1,6 @@
-const r = 8;
-const a = 3;
-const b = 4;
+const valr = 8;
+const vala = 3;
+const valb = 4;
 const Pi = 3.141;
 
 function area(r) {
@@ -10,8 +10,8 @@ function area(r) {
 function hyp(a, b) {
     return Math.sqrt((a * a) + (b * b));
 }
-const res1 = area(r);
-const res2 = hyp(a, b);
+const res1 = area(valr);
+const res2 = hyp(vala, valb);
 
 
 document.write ("Площа круга = ", res1,". ")
