@@ -17,7 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "lint": "npx run eslint"
+    "lint": "npx eslint --fix ."
   },
   "repository": {
     "type": "git",
