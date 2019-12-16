@@ -2,7 +2,7 @@ language: node_js
 node_js:
  - node
 script:
-- npx run lint
+- npx run eslint
 after_success:
   - npm run deploy
 deploy:
