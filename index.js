@@ -1,6 +1,6 @@
 const r = 8;
-let a = 3,
-    b = 4;
+const a = 3;
+const b = 4;
 const calc = require('./calc');
 
 const res1 = calc.area(r);
