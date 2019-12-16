@@ -1,11 +1,18 @@
 const r = 8;
 const a = 3;
 const b = 4;
-const calc = require('./calc');
+const Pi = 3.141;
 
-const res1 = calc.area(r);
-const res2 = calc.hyp(a, b);
+function area(r) {
+    return Pi * r * r;
+}
+
+function hyp(a, b) {
+    return Math.sqrt((a * a) + (b * b));
+}
+const res1 = area(r);
+const res2 = hyp(a, b);
 
 
-document.getElementById("result1").innerHTML=res1;
-document.getElementById("result2").innerHTML=res2;
+document.write ("Площа круга = ", res1,". ")
+document.write ("Гіпотенуза трикутника = ", res2,". ")

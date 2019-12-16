@@ -17,11 +17,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "lint": "npx eslint --fix ."
+    "lint": "npx eslint --fix .",
+    "deploy": "npx firebase deploy --token 1//0cwlRPDJRHe5dCgYIARAAGAwSNwF-L9IruM_Zt7MQodgEF10AnAk-UFJxuEtyzdzjq_ARMQAHpbqSkG6RvO-5WvJpz_KVOUnJNyQ"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/observer36/Nodejs.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx prettier index.js --write"
+    }
   },
   "author": "",
   "license": "ISC",
