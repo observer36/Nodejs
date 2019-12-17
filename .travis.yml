@@ -4,8 +4,10 @@ node_js:
 
 script:
  - npm run lint  
-
+after_success:
+ - npm run deploy
 deploy:
+  skip_cleanup: true
   provider: firebase
   token: 1//0cwlRPDJRHe5dCgYIARAAGAwSNwF-L9IruM_Zt7MQodgEF10AnAk-UFJxuEtyzdzjq_ARMQAHpbqSkG6RvO-5WvJpz_KVOUnJNyQ
 notifications:
