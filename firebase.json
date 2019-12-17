@@ -5,6 +5,15 @@
   "hosting": {
     "public": "/",
     "ignore": [
+      "firebase.json",
+      "package.json",
+      "package-lock.json",
+      "node_modules/**",
+      ".firebaserc",
+      ".eslintrc.json",
+      ".prettierrc.json",
+      ".gitignore",
+      ".travis.yml",
         ".git/**"
     ],
     "rewrites": [
