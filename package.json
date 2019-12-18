@@ -18,7 +18,7 @@
   "devDependencies": {},
   "scripts": {
     "lint": "npx eslint --fix .",
-    "deploy": "npx firebase deploy --token 1//0cwlRPDJRHe5dCgYIARAAGAwSNwF-L9IruM_Zt7MQodgEF10AnAk-UFJxuEtyzdzjq_ARMQAHpbqSkG6RvO-5WvJpz_KVOUnJNyQ"
+    "deploy": "npx firebase deploy --token $FIREBASE_TOKEN"
   },
   "repository": {
     "type": "git",
