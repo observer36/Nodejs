@@ -11,6 +11,6 @@ deploy:
   
   provider: firebase
   project: node-project-84f81
-  token: 1//0cwlRPDJRHe5dCgYIARAAGAwSNwF-L9IruM_Zt7MQodgEF10AnAk-UFJxuEtyzdzjq_ARMQAHpbqSkG6RvO-5WvJpz_KVOUnJNyQ
+  token: $FIREBASE_TOKEN
 notifications:
  email: false
